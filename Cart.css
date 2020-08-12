@@ -1,0 +1,55 @@
+.container h2{
+	margin: 3rem 0rem;
+}
+
+main{
+	margin-bottom: 5rem;
+}
+
+footer .container .row.pb-2 a{
+	color: white;
+}
+
+button:focus{
+	outline:0 !important; 
+}
+.input-group-append .btn{
+	color: white;
+	background-color: green;
+	border-radius: 6px;
+	margin-left: 0.5rem;
+}
+.input-group-append .btn:hover{
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.checkout_area{
+	display: flex;
+	justify-content: flex-end;
+}
+.checkout_area button{
+	color: white;
+	background-color: green;
+	border-radius: 6px;
+	outline: none;
+	margin: 2rem 3rem 0rem 0rem;
+	padding: 5px;
+}
+.checkout_area button:hover{
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+	transform: translate(0px,-10px);
+	color: black;
+	font-weight: 500;
+
+}
+
+.img_frame{
+	padding: 2rem;
+	height: 200px;
+	width: auto;
+}
+.img_frame img{
+	object-fit: cover;
+	height: 100%;
+	margin-left: 3rem;
+}

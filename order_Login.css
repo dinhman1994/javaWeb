@@ -1,0 +1,29 @@
+.container h2{
+	margin: 3rem 0rem;
+}
+
+main{
+	margin-bottom: 5rem;
+}
+
+footer .container .row.pb-2 a{
+	color: white;
+}
+
+.input-group-append .btn{
+	color: white;
+	background-color: green;
+	border-radius: 6px;
+	margin-left: 1rem;
+}
+.input-group-append .btn:hover{
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.table tbody tr th:nth-child(2){
+	background-color: red;
+}
+.extra{
+	
+	border-collapse: collapse !important;
+	border:none !important;
+}

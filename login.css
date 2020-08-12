@@ -1,0 +1,138 @@
+body{
+	padding: 0;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	}
+/*Navbar*/
+.right{
+	display: flex;
+}
+.right .navbar-nav {
+	justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.right .navbar-nav .nav-item .nav-link{
+	color: black;
+	transition: 0.2s;
+}
+.right .navbar-nav .nav-item .nav-link:hover{
+	font-size: 20px;
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+	color:black;
+}
+.left{
+	display: flex;
+}
+.left .dropdown button{
+	margin-right: 5rem; 
+	color: white;
+	background-color: green;
+}
+.left .dropdown .dropdown-menu.show{
+	display: flex;
+	flex-direction: column;
+} 
+.left .dropdown-menu .dropdown-item{
+	transition: 0.3s;
+	display: inline-block;
+}
+.left .dropdown-menu .dropdown-item:hover{
+	background-color:gray;
+	font-size: 20px;
+}
+.input-group-append-overlay button{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0;
+	color: green;
+	border-radius: 4px;
+	border: 1px solid green;
+	transition: 0.3s;
+	outline: none;
+}
+.input-group-append-overlay button:hover{
+	transform: translate(0,-7px);
+	box-shadow: 1px 1px 5px rgba(44,174,62,0.3);
+	outline: none;
+}
+.input-group-append-overlay button i{
+	margin: 0.2rem;
+}
+.input-group-append-overlay button p{
+	margin: 0;
+}
+/*End-Navbar*/
+
+.overall{
+	position: absolute;
+	left:35%;
+	top:10%;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	padding: 1rem;
+	border-radius: 6px;
+	background-image: linear-gradient(to right top, #2b5aa1, #0088d5, #00b5db, #00dcaa, #01fb4d);
+}
+.overall h2{
+	text-align: center;
+	margin-bottom: 4rem;
+	user-select: none;
+}
+.overall input{
+	width: 100%;
+	padding: 2px 5px;
+	margin-bottom: 1.5rem;
+	border-radius: 4px;
+	border:none;
+	outline: none;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+.overall input:focus+label,input:valid+label {
+	font-size: 19px;
+	transform: translate(-2px,-25px);
+} 
+.button-area{
+	display: flex;
+	justify-content: center;	
+}
+.overall button{
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	border-radius: 4px;	
+	padding: 0.2rem 1rem;
+	margin: 0rem 0rem 1rem 0rem;
+	border: none;
+
+}
+.overall button:hover{
+	color: white;
+	background-color: green;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	font-weight: 500;
+}
+.overall p{
+	text-align: center;
+	user-select: none;
+}
+.overall  p ưa{
+	padding: 0rem 0.5rem;
+	color: #C4FCEF;
+	transition: 0.3s;
+}
+.overall p a:hover{
+	text-decoration: none;
+	color:#DCFFBA;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+	font-size: 18px;
+}
+.overall .form-group{
+	position: relative;
+}
+.overall .form-group label{
+	position: absolute;
+	left:2%;
+	user-select: none;
+	transition: 0.3s
+}
